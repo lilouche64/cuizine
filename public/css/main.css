@@ -1,0 +1,61 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Courgette', cursive;
+}
+
+p {
+    font-family: 'Oswald', sans-serif;
+    color: gray;
+}
+
+.navbar-brand {
+    font-family: 'Courgette', cursive;
+    font-size: 35px;
+}
+
+nav {
+    background-color: rgba(0, 0, 0, 0);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.4);
+}
+
+header {
+    background-image: url(../img/header.jpg);
+    color: white;
+    text-align: center;
+    background-position: center center;
+    background-repeat: no-repeat;
+    margin-top: -80px;
+}
+
+header .filter {
+    background-color: rgba(0, 0, 0, 0.1);
+    padding: 150px 0 150px;
+    height: 100%;
+}
+
+.filter img {
+    width: 80px;
+    padding-bottom: 10px;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+
+footer ul {
+    list-style: none;
+    text-decoration: underline;
+    padding-left: 0px;
+}
+
+.title-social-icons {
+    font-family: 'Courgette', cursive;
+    font-weight: bold;
+}

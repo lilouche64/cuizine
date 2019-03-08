@@ -1,0 +1,92 @@
+
+ 
+    <article>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12 col-lg-8 offset-lg-1">
+                    <div class="row resume">
+                        <div class="col-9">
+                            <h2>Paëlla</h2>
+                        </div>
+                        <div class="col-3 timer">
+                            <div><i class="fas fa-stopwatch"></i> Préparation - 2 h</div>
+                            <div><i class="far fa-hourglass"></i> Cuisson - 1 h</div>
+                        </div>
+                    </div>
+                    <div class="row recipe">
+                        <div class="col-12 col-lg-3 ingredients">
+                            {{#each ingredients }}
+                            <span>{{this}}</span>
+                            {{/each}}
+                        </div>
+                        <div class="col-12 col-lg-9 content">
+                            {{#each steps }}
+                            <h6>Etape {{inc @index}}</h6>
+                            <p>{{this}}</p>
+                            {{/each}}
+                        </div><!-- /.post-content -->
+                        </div>
+                        <div class="col-12">
+                        <div class="row sponsored">
+                            {{#each ads }}
+                            <div class="col-6 offset-3 offset-md-0 col-md-4">
+                            <div class="img-container">
+                                <img src="/img/recipes/sponsored/{{this}}.jpg" />
+                                <span>Lien sponsorisé</span>
+                            </div>
+                            </div>
+                            {{/each}}
+                        </div>
+                    </div>
+                </div>
+                <aside class="d-none d-lg-block col-lg-2">
+                    <div class="section search">
+                        <h6>Recherche</h6>
+                        <form>
+                            <div class="form-group">
+                                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                                    placeholder="Recherche...">
+                            </div>
+                            <button type="submit" class="btn btn-primary col-12">Ok</button>
+                        </form>
+                    </div>
+                    <div class="section newsletter">
+                        <h6>Newsletter</h6>
+                        <form class="">
+                            <div class="form-group">
+                                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                                    placeholder="Email...">
+                            </div>
+                            <button type="submit" class="btn btn-primary col-12">S'inscrire</button>
+                        </form>
+                    </div>
+                    <div class="section social-icons">
+                        <h6>Partager</h6>
+                        <ul>
+                            <li>
+                                <a href="#" class="social-icon">
+                                    <i class="fab fa-facebook"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="social-icon">
+                                    <i class="fab fa-instagram"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="social-icon">
+                                    <i class="fab fa-youtube"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="social-icon">
+                                    <i class="fab fa-twitter"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </aside>
+            </div>
+        </div>
+    </article>
+

@@ -1,0 +1,48 @@
+header {
+    background-image: url(../img/recipes/paella/paella-header.jpg);
+}
+
+
+.ingredients, .content {
+    
+}
+.ingredients {
+    margin-bottom: 15px;
+}
+.ingredients span {
+    background-color: #636363;
+    color: #FFFFFF;
+    padding: 3px 15px;
+    display: inline-block;
+    border-radius: 15px;
+    margin-bottom: 5px;
+}
+
+.content {
+}
+
+.timer div {
+    background-color: #AAA;
+    text-align: center;
+    padding: 7px;
+    margin: 3px 0;
+}
+
+.resume {
+    margin-bottom: 20px;
+}
+
+.sponsored img {
+    width: 100%;
+}
+.sponsored .img-container {
+    position: relative;
+}
+.sponsored span {
+    position: relative;
+    bottom: 0;
+    right: 0;
+    padding: 0 3px;
+    top: -24px;
+    background-color: #AAA;
+}

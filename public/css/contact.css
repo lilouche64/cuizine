@@ -1,0 +1,55 @@
+header .filter 
+{
+    padding: 150px 0 200px;
+    background-color: rgba(0, 0, 0, .5);
+    height: 100%;
+}
+footer
+{
+    background-color: black;
+    color:white;
+}
+ul li
+{
+    list-style: none;
+    text-decoration:underline; 
+}
+footer
+{
+    background-color: black;
+    color: white;
+    padding-top: 50px;
+    padding-bottom: 60px;
+    padding-left: 20px;
+    width: -40px;  
+}
+footer ul
+{
+    list-style: none;
+    text-decoration: underline;
+}
+
+.first-info
+{
+    padding: 40px;
+}
+#map-container
+{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    padding-top:26.00%;
+    position:relative;
+    height:40px;
+    }
+    
+#map-container iframe {
+    left:0;
+    top:0;
+    height:200%;
+    width:200%;
+    position:absolute;
+}
+.container
+{
+    padding-bottom: 20px;
+}
