@@ -47,6 +47,23 @@ app.get('/team-member', function(req, res) {
     });
 });
 
+app.get('/post', function(req, res) {
+    res.render('post', {
+        url: 'post',
+        title: "Chez Suzette, la nouvelle crêperie qui fait parler d'elle",
+        isActiveContact: true
+    });
+});
+
+app.get('/contact', function(req, res) {
+    res.render('contact', {
+        url: 'contact',
+        title: 'Nous contacter',
+        img: 'img/logo_square_white.png',
+        isActiveContact: true
+    });
+});
+
 app.get('/recipe', function(req, res) {
     res.render('recipe', {
         url: 'recipe',
@@ -97,23 +114,6 @@ app.get('/recipe', function(req, res) {
                 return parseInt(index) + 1;
             }
         }
-    });
-});
-
-app.get('/post', function(req, res) {
-    res.render('post', {
-        url: 'post',
-        title: "Chez Suzette, la nouvelle crêperie qui fait parler d'elle",
-        isActiveContact: true
-    });
-});
-
-app.get('/contact', function(req, res) {
-    res.render('contact', {
-        url: 'contact',
-        title: 'Nous contacter',
-        img: 'img/logo_square_white.png',
-        isActiveContact: true
     });
 });
 
