@@ -2,8 +2,17 @@ header {
     background-image: url(../img/recipes/paella/paella-header.jpg);
 }
 
-.ingredients,
-.content {}
+header .filter 
+{
+    padding: 10px 0 200px;
+    background-color: rgba(0, 0, 0, .5);
+    height: 100%;
+}
+
+.nav_header
+{
+    margin-bottom: 80px;
+}
 
 .ingredients {
     margin-bottom: 15px;
@@ -17,8 +26,6 @@ header {
     border-radius: 15px;
     margin-bottom: 5px;
 }
-
-.content {}
 
 .timer div {
     background-color: #AAA;

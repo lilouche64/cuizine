@@ -12,10 +12,7 @@
 {
     border-bottom: 1px solid white;
 }
-.nav_header
-{
-    background-color: rgba(0,0,0,0.7);
-}
+
 .logo
 {
     color: white;
@@ -29,9 +26,16 @@
     margin-top: 30px;
     margin-bottom: 20px; 
 } */
+
+
+.nav_header
+{
+    margin-bottom: 80px;
+}
+
 header .filter 
 {
-    padding: 150px 0 100px;
+    padding: 10px 0 100px;
     background-color: rgba(0, 0, 0, .5);
     height: 100%;
 }

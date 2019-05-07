@@ -2,9 +2,14 @@ header
 {
     background-image: url(../img/team/team.jpg);
 }
+.nav_header
+{
+    margin-bottom: 80px;
+}
+
 header .filter 
 {
-    padding: 150px 0 240px;
+    padding: 10px 0 240px;
     background-color: rgba(0, 0, 0, .8);
     height: 100%;
 }
